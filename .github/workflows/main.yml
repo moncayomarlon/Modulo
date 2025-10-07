@@ -25,7 +25,7 @@ jobs:
 
       - name: Verificar existencia de home.html y styles.css o css.html
         run: |
-            if [ -f home.html ] && [ -f styles.css ]; then
+            if [ -f index.html ] && [ -f styles.css ]; then
                echo "Archivos HTML y CSS encontrados. ¡CI Básico Superado!"
             else
                echo "Error: Faltan archivos index.html o styles.css"
